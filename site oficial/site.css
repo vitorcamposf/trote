@@ -49,11 +49,13 @@ body {
 }
 .principal{
     /* -40px subiu auto embaixo e 40 é na lateral */
-    max-width: 900px; margin: -40px auto 40px; padding: 20px;
+    max-width: 900px;
+     margin: -40px auto 40px; 
+     padding: 20px;
     
 }
 .card{
-background:white;
+background-color: white;
 padding:25px;
 border-radius:10px;
 margin-bottom:20px;
@@ -77,6 +79,126 @@ border-radius:6px;
 margin-top: 10px;
 font-weight:bold;
 }
+section{
+background-color: white;
+margin-bottom: 20px;
+padding: 25px;
+border-radius: 12px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 
+}
+.texto-introducao p {
+    line-height: 1.6; /* melhora a leitura de textos longos */
+    margin-bottom: 20px;
+    text-align: justify; /* alinhamento justificado - alinha à esquerda e à direta */
+}
+.lista-valores {
+    list-style: none;
+    padding: 0;
+}
+.lista-valores li {
+    background: #eef5ff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-left: 5px solid #1e3c72;
+}
+table {
+    width: 100%; border-collapse: collapse; margin-top: 20px;
+    background-color: white;
+}
 
+th, td {
+    padding: 15px; text-align: left; border-bottom: 1px solid #ddd;
+}
 
+th {
+    background-color: #2a5298;
+}
+
+.box-amarela {
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background: yellow;
+}
+.card-provas{
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.kit-box {
+    background: #fff6d8;
+    border: 2px dashed #f0c36d;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background: #2f4a7a;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.destaque {
+    border-left: 5px solid #ff6b6b;
+    background: #fff0f0;
+}
+
+.alerta {
+    color: orange;
+    font-weight: bold;
+}
+.item-check {
+    color: green;
+    margin: 5px 0;
+}
+
+.item-alerta {
+    color: orange;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.item-info {
+    color: #2f4a7a;
+    margin: 5px 0;
+}
+
+.item-premio {
+    color: #a67c00;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.destaque-amarelo {
+    border-left: 5px solid gold;
+    background: #fff8e6;
+}
+.footer {
+    background-color: #2f4a7a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.footer-texto {
+    margin: 5px 0;
+    font-size: 14px;
+}
